@@ -6,15 +6,19 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Como faço para conseguir medicamentos não padronizados do sus?",
+        enunciado: " Qual é o principal grão exportado pelo Brasil no setor do agronegócio?",
         alternativas: [
             {
-                texto: "encaminhar-se a regional de saude do seu município, munido dos seguintes documentos: cpf ou rg, comprovante de residencia, prescriçao atualizada, receituario medico.",
-                afirmacao: "<b>Organização</b> Sim, a Sesa tem como principal função garantir o acesso ao serviços que visem a promoção, protećão e recuperação da saúde da população em todo o Paraná."
+                texto: "trigo.",
+                afirmacao: "O trigo não é um dos principais produtos exportados pelo Brasil porque o país produz pouco e importa mais do que vende ao exterior.
+
+."
             },
             {
-                texto: "Exigências quanto ao  relatório médico. Os documentos preenchidos pelo médico deverão conter carimbo legível, com nome e CRM do médico, data e assinatura.",
-                afirmacao: "Você se destaca por seu <b>conhecimento</b>, o carimbo deverá conter também o número do Registro de Qualificação de Especialista (RQE)"
+                texto: "soja.",
+                afirmacao: "A soja é o principal grão exportado pelo Brasil porque tem alta demanda internacional, principalmente da China, e é usada na produção de ração e óleo. O Brasil tem grande área plantada, boa produtividade e é líder mundial nas exportações desse grão.
+
+"
             }
         ]
     },
